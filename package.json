@@ -1,6 +1,6 @@
 {
     "name": "@mwalek/gf-importer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Gravity Forms importer for E2E tests",
     "main": "js/gf-importer-helper.js",
     "files": [
