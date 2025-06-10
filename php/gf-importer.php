@@ -75,7 +75,7 @@ if ( ! class_exists( 'GFAPI' ) ) {
     wp_die( 'Gravity Forms is not activated or the GFAPI class is not available.' );
 }
 
-$data_dir = plugin_dir_path( __FILE__ ) . 'data';
+$data_dir = dirname(__DIR__) . '/data';
 if ( ! is_dir( $data_dir ) ) {
     wp_die( 'Forms and entries directory does not exist.' );
 }
